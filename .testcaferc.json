@@ -1,0 +1,47 @@
+{
+    "browsers": [  {
+      "path": "chrome",
+      "cmd": "chrome --disable-popup-blocking --user-data-dir=./tmp --download-default-directory=./downloads"
+    }, "firefox:headless", "remote"],
+     "reporter": [{
+      "name": "xunit",
+      "output": "reports/report.xml"
+    },
+    {
+      "name": "html",
+      "output": "Rapports/rap.html"
+    }],
+    "screenshots": {
+        "path": "screenshots/screen-captures",
+        "takeOnFails": false,
+        "pathPattern": "${DATE}_${TIME}/test-${TEST_INDEX}/${USERAGENT}/${FILE_INDEX}.png"
+    },
+    "videoPath": "screenshots/screen-records",
+    "videoOptions": {
+        "singleFile": true,
+        "failedOnly": false,
+        "pathPattern": "${TEST_INDEX}/${USERAGENT}/${FILE_INDEX}.mp4"
+    },
+    "videoEncodingOptions": {
+        "r": 20,
+        "aspect": "4:3"
+    },
+    "selectorTimeout": 3000,
+    "assertionTimeout": 1000,
+    "pageLoadTimeout": 2000,
+    "speed": 1,
+    "pageRequestTimeout": 60000,
+    "ajaxRequestTimeout": 60000,
+    "quarantineMode": false,
+    "debugMode": false,
+    "debugOnFail": false,
+    "stopOnFirstFail": false,
+    "skipJsErrors": true,
+    "skipUncaughtErrors": true,
+    "appInitDelay": 6000,
+    "concurrency":1,
+    "disableNativeAutomation": true,
+    "ignore-certificate-error":true
+    
+
+}

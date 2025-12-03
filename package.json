@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "@cucumber/cucumber": "^9.6.0",
+    "@ffmpeg-installer/ffmpeg": "^1.1.0",
+    "gherkin-testcafe": "^7.1.2",
+    "node": "^25.1.0",
+    "pdf-parse": "^1.1.1"
+  },
+  "devDependencies": {
+    "@types/pdf-parse": "^1.1.5",
+    "testcafe": "^2.6.2",
+    "testcafe-reporter-html": "^1.4.6"
+  }
+}

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite name="TestCafe Tests: Chrome 142.0.0.0 / Sonoma 14" tests="1" failures="0" skipped="0" errors="0" time="24.767" timestamp="Wed, 03 Dec 2025 21:11:56 GMT" >
+  <testcase classname="Test Contenu de formation MN" file="/Users/v12/Desktop/kenneth/SI/projet/Tests/inssetTest.ts" name="Test1" time="19.86">
+  </testcase>
+  <system-out>
+  <![CDATA[
+    Warnings (3):
+    --
+      The "browsers" option from the configuration file will be ignored.
+    --
+      The browser window was resized during the "Test1" test while TestCafe recorded a video. TestCafe cannot adjust the video resolution during recording. As a result, the video content may appear broken. Do not resize the browser window when TestCafe records a video.
+    --
+      The "${TEST_INDEX}" path pattern placeholder cannot be applied to the recorded video.
+
+      The placeholder was replaced with an empty string.
+  ]]>
+  </system-out>
+</testsuite>
