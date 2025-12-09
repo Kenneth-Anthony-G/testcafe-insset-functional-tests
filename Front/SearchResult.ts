@@ -24,8 +24,4 @@ export class UPJV_SearchResult{
         this.Titre_page6=Selector('#tabsresp-search_solr > li:nth-child(6) > a');
         
     }
- 
-   
-    
-    
 };

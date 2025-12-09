@@ -14,13 +14,13 @@
     "screenshots": {
         "path": "screenshots/screen-captures",
         "takeOnFails": false,
-        "pathPattern": "${DATE}_${TIME}/test-${TEST_INDEX}/${USERAGENT}/${FILE_INDEX}.png"
+        "pathPattern": "${DATE}_${TIME}/${USERAGENT}/${FILE_INDEX}.png"
     },
     "videoPath": "screenshots/screen-records",
     "videoOptions": {
-        "singleFile": true,
+        "singleFile": false,
         "failedOnly": false,
-        "pathPattern": "${TEST_INDEX}/${USERAGENT}/${FILE_INDEX}.mp4"
+        "pathPattern": "${USERAGENT}/${DATE}_${TIME}.mp4"
     },
     "videoEncodingOptions": {
         "r": 20,
